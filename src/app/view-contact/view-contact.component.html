@@ -1,0 +1,36 @@
+<div class="container">
+
+    <!-- add contact intro -->
+    <div class="row">
+        <div class="col">
+            <h1 class="text-secondary mt-4 text-center">View Contact <i class="fa-solid fa-eye ms-2"></i> </h1>
+            <p style="text-align: justify;" class="mt-3">You can capture and organize information about people by saving new contacts in your address book. Contacts are like electronic cards that save a person's contact information. A contact can be as basic as a name and email address, or include more information like a street address, multiple phone numbers, and a profile picture. <br>
+                Once you’ve saved someone as a contact, you can type the first few letters of their name into an email, and Outlook will fill in their email address for you. Or with a few clicks, you can call that person without ever having to look up their phone number.</p>
+        </div>
+    </div>
+<hr>
+<!-- <pre>
+    {{contact|json}}
+</pre> -->
+    <!-- add contact form and image -->
+    <div class="row mt-5">
+        <!-- list  -->
+        <div class="col-6">
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-secondary" aria-current="true">Contact Details</li>
+                <li class="list-group-item">ID : {{contact.id}}</li>
+                <li class="list-group-item">Name : {{contact.name}}</li>
+                <li class="list-group-item">Phone : {{contact.phone}}</li>
+                <li class="list-group-item">Email : {{contact.email}}</li>
+                <li class="list-group-item">Company : {{contact.company}}</li>
+                <li class="list-group-item">Title : {{contact.title}}</li>
+                <li class="list-group-item">Group : {{groupName}}</li>
+              </ul>
+        </div>
+        <!-- image -->
+        <div class="col-6" style="text-align: center;">
+            <img [src]="contact.photo" alt="contact photo" width="250px" height="325px" class="ms-5 rounded">
+        </div>
+    </div>
+    <button class="btn btn btn-outline-danger mt-5" routerLink=""><i class="fa-sharp fa-solid fa-arrow-left me-2"></i>Go Back</button>
+</div>

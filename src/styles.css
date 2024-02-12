@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Foldit&family=Oxygen&family=PT+Sans+Narrow&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=PT+Serif:ital@0;1&family=Parisienne&family=Poppins:wght@400;500&family=Righteous&family=Roboto:wght@400;500&family=Teko&display=swap');
+h1{
+    font-family: 'Teko', sans-serif;
+}
+p{
+    font-family: 'PT Serif', serif;
+}
+body{
+    background-color: aqua;
+}

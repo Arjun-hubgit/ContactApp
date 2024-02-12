@@ -1,0 +1,68 @@
+{
+  "contacts": [
+    {
+      "id": "C2",
+      "name": "Bean",
+      "phone": "9898989898",
+      "email": "bean@gmail.com",
+      "photo": "https://tse4.mm.bing.net/th?id=OIP.MyCbz1LohMbcDj4KkZFd0wHaJ4&pid=Api&P=0&h=180",
+      "company": "TCS",
+      "title": "HR",
+      "groupId": "3"
+    },
+    {
+      "id": "C3",
+      "name": "Emma",
+      "phone": "9797979797",
+      "email": "emma@gmail.com",
+      "photo": "https://tse1.mm.bing.net/th?id=OIP.ZP5kVXKjHmRIU24B0fbX_AHaLo&pid=Api&P=0&h=180",
+      "company": "HCL",
+      "title": "Design Engineer",
+      "groupId": "1"
+    },
+    {
+      "id": "C4",
+      "name": "Anna",
+      "phone": "9595959595",
+      "email": "anna@gmail.com",
+      "photo": "https://tse4.mm.bing.net/th?id=OIP.doaMkj7zRYHmsKykBtfJXQHaJP&pid=Api&P=0&h=180",
+      "company": "Infosys",
+      "title": "Software Testing",
+      "groupId": "2"
+    },
+    {
+      "groupId": "1",
+      "id": "12",
+      "name": "Ophelia",
+      "photo": "https://tse1.explicit.bing.net/th?id=OIP.ycfUWo94lHDL83ZMIPh6lgHaJC&pid=Api&P=0&h=180",
+      "phone": "2546987138",
+      "email": "ophelia.gmail.com",
+      "company": "Macbeth",
+      "title": "Queen"
+    },
+    {
+      "groupId": "3",
+      "id": "C1",
+      "name": "Roy",
+      "photo": "https://tse1.mm.bing.net/th?id=OIP.p7M2vglfvv2n9VRrsiHn4QHaKg&pid=Api&P=0&h=180",
+      "phone": "9898989898",
+      "email": "roy@gmail.com",
+      "company": "IBM",
+      "title": "Software Developer"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Family"
+    },
+    {
+      "id": "2",
+      "name": "Friend"
+    },
+    {
+      "id": "3",
+      "name": "Company"
+    }
+  ]
+}
